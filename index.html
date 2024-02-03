@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Profissional</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div><img src="img/matheus.jpeg" alt="Minha Foto de Perfil" width="300px" height="300px"></div>
+        <div><h1>Matheus Vinícius G. De Andrade</h1></div>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#sobreeu">Sobre Mim</a>
+        <a href="#entrevista">Marcar Entrevista</a>
+        <a href="#rodape">Redes Sociais</a>
+    </nav>
+    <div class="site">
+        <section>
+            <article class="lateralsite">
+                <div>
+                    <h2>Formação Acadêmica</h2>
+    
+                    <p><b>Educação Básica</b></p>
+                    <p>EREM Ginásio Pernambucano da Aurora – Recife, PE</p>
+                    <p>Fev. 2020 – Dez. 2022</p>
+    
+                    <p><b>Educação Superior</b></p>
+                    <p><i>Curso: Sistemas para Internet</i></p>
+                    <p>Universidade Católica de Pernambuco – Recife, PE</p>
+                    <p>Fev. 2023 – Em Andamento</p>
+                </div>
+                <div>
+                    <img src="img/imgFacul.jpg" alt="Exemplificação de Estudo" width="300px" height="300px">
+                </div>
+            </article>
+            <article class="lateralsite">
+                <div>
+                    <h2>Habilidades e Conhecimentos</h2>
+    
+                    <h4>Habilidades</h4>
+                    <ul>
+                        <li>Aprendizado Contínuo</li>
+                        <li>Colaboração e Trabalho em Equipe</li>
+                        <li>Raciocinio Lógico</li>
+                        <li>Organização</li>
+                    </ul>
+                    
+                    <h4>Conhecimentos</h4>
+                    <ol>
+                        <li>Desenvolvimento Web</li>
+                        <li>Banco de Dados</li>
+                        <li>Gestão de Projetos</li>
+                    </ol>
+                </div>
+                <div>
+                    <img src="img/imgCodar.jpg" alt="Representação de Codar" width="300px" height="300px">
+                </div>
+            </article>
+            <article class="lateralsite">
+                <div>
+                    <h2>Informações Complementares</h2>
+    
+                    <h4>Idiomas</h4>
+                    <dl>
+                        <dt>Inglês</dt>
+                        <dd>Básico Intermediário (CEFR – A2)</dd>
+                        <dt>Espanhol</dt>
+                        <dd>Básico Iniciante (QECR – A1)</dd>
+                    </dl>
+                </div>
+                <div>
+                    <h4>Competências em Desenvolvimento</h4>
+                    <ul>
+                        <li>Desenvolvimento Front-End
+                            <ol>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ol>
+                        </li>
+                        <li>Desenvolvimento Back-End
+                            <ol>
+                                <li>Lógica de Programação</li>
+                                <li>Orientação a Objetos</li>
+                                <li>Banco de Dados | API</li>
+                            </ol>
+                        </li>
+                        <li>Fundamentos da Computação
+                            <ol>
+                                <li>Software</li>
+                                <li>Hardware</li>
+                                <li>Algoritmos e Estrutura de Dados</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <article>
+                <h4>Cursos Complementares</h4>
+                <p>Nome do Curso - *******</p>
+                <p>Área do Curso - *******</p>
+                <p>Plataforma do Curso - *******</p>
+                <p>Data - **/**** | Em Andamento</p>
+            </article>
+            <hr>
+            <article>
+                <h4>Meu Contato</h4>
+                <p>E-mail: matheus678brdef@gmail.com</p>
+                <p>Celular: (81)99443-2493</p>
+                <p>Endereço: Boa Vista - Recife, PE</p>
+            </article>
+            <hr>
+            <a name="sobreeu">
+                <article>
+                    <h4>Mais Sobre Mim</h4>
+                    <p id="texto">Olá, sou Matheus Vinícius, natural de Recife - PE, estudante de Sistemas para Internet - 3º Período, na Universidade Católica de Pernambuco, 
+                    e também estudante de Ciências Econômicas - 1º Período, na Universidade Federal de Pernambuco. <i>Sou novo na área de programação e iniciante em 
+                    economia, meu objetivo é buscar novas experiências no mercado de trabalho e estou disposto a atingir novos rumos na minha carreira profissional e pessoal</i>.
+                    </p>
+                </article>
+            </a>
+            <hr>
+            <a name="entrevista">
+                <article>
+                    <h4>Seu Contato para Entrevista</h4>
+                    <form class="formulario">
+                        <label for="nomeEmpresa">Nome da Empresa: </label>
+                        <input type="text" id="nomeEmpresa">
+        
+                        <label for="contatoEmpresa">Contato da Empresa: </label>
+                        <input type="text" id="contatoEmpresa">
+        
+                        <label for="funçaoEmpresa">Minha Função: </label>
+                        <select name="funçãoEmpresa" id="">
+                            <option value="1">Jovem Aprendiz</option>
+                            <option value="2">Estagiário</option>
+                            <option value="3">Outro*</option>
+                        </select>
+        
+                        <label for="dataEmpresa">Dia da Entrevista: </label>
+                        <input type="datetime-local" id="dataEmpresa">
+        
+                        <label for="mensagemEmpresa">Mensagem: </label>
+                        <textarea name="mensagemEmpresa" id="mensagemEmpresa" cols="30" rows="10"></textarea>
+                        <button>Enviar Mensagem</button>
+                    </form>
+                </article>
+            </a>
+        </aside>
+    </div>
+    <a href="#rodape">
+        <footer>
+            <div id="imgespaço">
+                <a href="https://www.facebook.com/matheusviniciusga/" target="_blank">
+                    <img src="img/faceicon.png" alt="Ícone do Facebook" width="35px" height="35px">
+                </a>
+                <a href="https://www.instagram.com/matheusviniciusga/" target="_blank">
+                    <img src="img/instaicon.png" alt="Ícone do Intagram" width="35px" height="35px">
+                </a>
+                <a href="https://github.com/matheusviniciusga" target="_blank">
+                    <img src="img/giticon.png" alt="Ícone do Github" width="35px" height="35px">
+                </a>
+                <a href="https://www.linkedin.com/in/matheusviniciusga/" target="_blank">
+                    <img src="img/linkicon.png" alt="Linkedln" width="35px" height="35px">
+                </a>
+            </div>
+            <div>
+                <address>Termos de Uso • Politica e Privacidade • &copy;</address>
+            </div>
+            <div>
+                <p>Contato para Suporte/Dúvidas: <strong>contatoMatheus@gmail.com</strong></p>
+            </div>
+        </footer>
+    </a>
+</body>
+</html>
