@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -72,8 +76,9 @@ section img {
 }
 
 aside {
-    float: right;
+    float: left;
     width: 25%;
+    padding-left: 10px;
 }
 
 #texto {
@@ -93,7 +98,7 @@ form {
 }
 
 input, select, textarea {
-    width: 97.3%;
+    width: 100%;
     padding: 5px;
     margin-bottom: 1em;
     font: 1em sans-serif;
@@ -132,4 +137,30 @@ footer {
 #imgespaço img{
     margin-left: 7px;
     margin-right: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    nav {
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+    }
 }
